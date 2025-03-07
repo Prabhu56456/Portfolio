@@ -1,1 +1,37 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 20px;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+/* Header styling */
+h1 {
+    color: #000;
+}
+
+/* Section headings */
+h2 {
+    margin-top: 20px;
+    color: #444;
+}
+
+/* Links */
+a {
+    color: #1a73e8;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 40px;
+    font-size: 0.9em;
+    color: #666;
+}
 
