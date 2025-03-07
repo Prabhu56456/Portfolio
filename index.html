@@ -3,45 +3,121 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prabhu K | Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Prabhu K - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+            background: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: #2C3E50;
+            color: white;
+            padding: 2rem 1rem;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #2C3E50;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #1ABC9C;
+        }
+        section {
+            padding: 20px;
+            max-width: 800px;
+            margin: auto;
+        }
+        .project-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2C3E50;
+            color: white;
+        }
+        .contact-links a {
+            color: #1ABC9C;
+            margin-right: 10px;
+            text-decoration: none;
+        }
+        .contact-links a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 <body>
     <header>
         <h1>Prabhu K</h1>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <p>Senior Design Engineer | Aerospace & Bioprocess Expert</p>
     </header>
 
-    <section id="hero">
-        <h2>Welcome to My Portfolio</h2>
-        <p>Senior Design Engineer | Aerospace & Bioprocess Expert</p>
-    </section>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
 
     <section id="about">
         <h2>About Me</h2>
-        <p>I am a Senior Design Engineer I at Foxx Lifesciences with expertise in aerospace manufacturing and bioprocess engineering. Skilled in SolidWorks, ECN/ECO, DFMEA, and GD&T.</p>
+        <p>Results-driven Mechanical Design Engineer with over 6 years of experience specializing in product design, prototyping, and mechanical system optimization. Skilled in SolidWorks (Advanced Sheet Metal Certified), FEA simulations, and Design for Manufacturability (DFM). Passionate about solving complex engineering challenges in deep-tech R&D environments.</p>
     </section>
 
     <section id="projects">
         <h2>Projects</h2>
-        <div class="project">
-            <h3>Project 1: Aerospace Component Design</h3>
-            <p>Designed and optimized aerospace components using advanced CAD modeling and GD&T principles.</p>
+
+        <div class="project-card">
+            <h3>Aerospace Component Design</h3>
+            <p>Utilized AutoCAD for sheet metal laser cutting of aerospace components, ensuring precision and compliance with industry standards. Led design improvements that reduced material waste and enhanced production efficiency.</p>
         </div>
-        <div class="project">
-            <h3>Project 2: Bioprocess System Development</h3>
-            <p>Led the development of bioprocess systems, improving efficiency and compliance with industry standards.</p>
+
+        <div class="project-card">
+            <h3>Bioprocess System Development</h3>
+            <p>Led the development of single-use medical devices for bioprocessing and sterile flow control, achieving a 10% reduction in material usage and increased compliance with ISO 13485 standards.</p>
         </div>
+
+        <div class="project-card">
+            <h3>Design Optimization & Cost Reduction</h3>
+            <p>Redesigned reservoir systems, resulting in an 18% lead-time reduction and lower manufacturing costs by optimizing designs using DFM principles.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Skills & Certifications</h2>
+        <ul>
+            <li>SolidWorks (Advanced Sheet Metal Certified)</li>
+            <li>GD&T (Geometric Dimensioning & Tolerancing)</li>
+            <li>ECN/ECO Process Management</li>
+            <li>DFMEA (Design Failure Mode and Effects Analysis)</li>
+            <li>Medical Device Standards (ISO 13485)</li>
+            <li>Project Management & Team Leadership</li>
+        </ul>
     </section>
 
     <section id="contact">
         <h2>Contact Me</h2>
         <p>Email: prabhu56456@gmail.com</p>
-        <p><a href="https://www.linkedin.com/in/-prabhu-k/">LinkedIn</a> | <a href="https://github.com/prabhu-k">GitHub</a></p>
+        <div class="contact-links">
+            <a href="https://www.linkedin.com/in/-prabhu-k" target="_blank">LinkedIn</a>
+            <a href="https://github.com/yourgithub" target="_blank">GitHub</a>
+        </div>
     </section>
 
     <footer>
